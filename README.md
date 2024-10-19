@@ -33,3 +33,6 @@ The tabs are implemented using buttons for each tab and corresponding content se
     <button class="tab-link" onclick="openTab(event, 'third')">Third Tab</button>
     <button class="tab-link" onclick="openTab(event, 'fourth')">Fourth Tab</button>
 </div>
+
+## Project URL
+https://roadmap.sh/projects/simple-tabs
