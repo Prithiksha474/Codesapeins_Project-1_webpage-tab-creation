@@ -20,6 +20,8 @@ The project contains the following files:
   -script.js: JavaScript functionality for switching between tabs.
 - README.md: Documentation for the project.
 
+## Project URL
+https://roadmap.sh/projects/simple-tabs
 
 ## Code Explanation
 
@@ -34,5 +36,4 @@ The tabs are implemented using buttons for each tab and corresponding content se
     <button class="tab-link" onclick="openTab(event, 'fourth')">Fourth Tab</button>
 </div>
 
-## Project URL
-https://roadmap.sh/projects/simple-tabs
+
