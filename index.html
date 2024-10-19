@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs Functionality</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tabs-container">
+      <div class="tabs">
+        <button class="tab-link active" onclick="openTab(event, 'first')">
+          First Tab
+        </button>
+        <button class="tab-link" onclick="openTab(event, 'second')">
+          Second Tab
+        </button>
+        <button class="tab-link" onclick="openTab(event, 'third')">
+          Third Tab
+        </button>
+        <button class="tab-link" onclick="openTab(event, 'fourth')">
+          Fourth Tab
+        </button>
+      </div>
+
+      <div id="first" class="tab-content active">
+        <h2>First Tab</h2>
+        <p>This is the First Tab !</p>
+      </div>
+
+      <div id="second" class="tab-content">
+        <h2>Second Tab</h2>
+        <p>Welcome to Second Tab!</p>
+      </div>
+
+      <div id="third" class="tab-content">
+        <h2>Third Tab</h2>
+        <p>You're now in Third Tab!</p>
+      </div>
+
+      <div id="fourth" class="tab-content">
+        <h2>Fourth Tab</h2>
+        <p>Finally on to Fourth Tab!</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
