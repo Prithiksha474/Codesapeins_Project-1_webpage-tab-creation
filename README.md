@@ -23,6 +23,9 @@ The project contains the following files:
 ## Project URL
 https://roadmap.sh/projects/simple-tabs
 
+## Deployment in Vercel
+https://codesapeins-project-1-webpage-t-git-2c2280-prithikshas-projects.vercel.app/
+
 ## Code Explanation
 
 ### HTML
